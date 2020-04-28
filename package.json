@@ -1,0 +1,51 @@
+{
+	"name": "webpack-boilerplate",
+	"version": "1.0.0",
+	"description": "webpack boilerplate for front end projects",
+	"main": "index.js",
+	"scripts": {
+		"start": "webpack-dev-server --mode development --open",
+		"dev": "webpack --mode development",
+		"build": "webpack --mode production",
+		"deploy": "gh-pages -d dist"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kikeestrada/webpack-boilerplate.git"
+	},
+	"author": "kikeestrada <kikeestrada@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/kikeestrada/webpack-boilerplate/issues"
+	},
+	"devDependencies": {
+		"autoprefixer": "^8.6.5",
+		"babel-core": "^6.26.3",
+		"babel-loader": "^7.1.5",
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-react": "^6.24.1",
+		"clean-webpack-plugin": "^0.1.19",
+		"css-loader": "^1.0.0",
+		"es6-template-string": "^1.1.0",
+		"file-loader": "^1.1.11",
+		"html-loader": "^0.5.5",
+		"html-webpack-plugin": "^3.2.0",
+		"image-webpack-loader": "^4.3.1",
+		"mini-css-extract-plugin": "^0.4.1",
+		"node-sass": "^4.9.2",
+		"postcss-loader": "^2.1.6",
+		"pug": "^2.0.4",
+		"pug-loader": "^2.4.0",
+		"resolve-url-loader": "^2.3.0",
+		"sass-loader": "^7.0.3",
+		"style-loader": "^0.21.0",
+		"webpack": "^4.15.1",
+		"webpack-cli": "^3.0.8",
+		"webpack-dev-server": "^3.1.4"
+	},
+	"dependencies": {
+		"firebase": "^5.5.2",
+		"gh-pages": "^2.1.1"
+	},
+	"homepage": "https://github.com/kikeestrada/webpack-boilerplate#readme"
+}

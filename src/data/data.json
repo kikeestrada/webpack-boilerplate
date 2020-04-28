@@ -1,0 +1,13 @@
+{
+	"name": "webpack",
+	"links": [
+		[
+			"home",
+			"index.html"
+		],
+		[
+			"page2",
+			"page2.html"
+		]
+	]
+}
